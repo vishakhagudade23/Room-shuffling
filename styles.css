@@ -1,0 +1,100 @@
+.container {
+  background-color: rgb(245, 247, 248)
+}
+
+#title {
+  border: 3px solid black;
+  border-radius: 22px;
+  text-align: center;
+  background-color: rgb(93, 93, 235);
+  color: white;
+}
+
+.room {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(95, 95, 238);
+  padding: 8px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border: none;
+  box-shadow: 3px 5px 9px 0.5px rgb(208, 208, 240);
+
+}
+
+table {
+  height: 150px;
+  width: 25%;
+  margin: 25px;
+}
+
+th {
+  padding: 4px;
+}
+
+#divbox1 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+#divbox2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+#divbox3 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+#divbox4 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-left: 44px;
+  margin-right: 44px;
+}
+
+.allbox {
+  background-color: aliceblue;
+}
+
+.shuffleBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#btn {
+  font-size: 18px;
+  color: white;
+  border: 1px solid black;
+  background-color: blue;
+  padding: 10px;
+  width: 99px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: rgb(107, 107, 214);
+}
